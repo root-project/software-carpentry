@@ -1,21 +1,16 @@
 {
-  "image": "rootproject/root:6.28.00-ubuntu22.04",
-  "hostRequirements": {
-    "cpus": 2
-  },
-  "waitFor": "onCreateCommand",
-  "updateContentCommand": {
-    "Installing apt packages": "sudo apt-get -yqq update && sudo apt-get install -yqq python3-pip"
-  },
-  "postCreateCommand": {
-    "Installing python packages": "python3 -m pip install -r requirements.txt"
-  },
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "ms-toolsai.jupyter",
-        "ms-python.python"
-      ]
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "hostRequirements": {
+        "cpus": 2
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "ms-python.python"
+            ]
+        }
     }
-  }
 }
