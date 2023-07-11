@@ -1,4 +1,4 @@
 {
     "image": "rootproject/root:6.28.00-ubuntu22.04",
-    "postCreateCommand": "pip install -r requirements.txt"
+    "postCreateCommand": "./post_create_commands.sh"
 }
