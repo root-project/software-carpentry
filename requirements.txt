@@ -1,0 +1,4 @@
+# Extra Python packages for the advanced RDataFrame tutorials
+pyspark
+dask
+distributed
