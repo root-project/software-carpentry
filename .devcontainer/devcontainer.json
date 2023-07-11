@@ -1,4 +1,21 @@
 {
-    "image": "rootproject/root:6.28.00-ubuntu22.04",
-    "postCreateCommand": "./post_create_commands.sh"
+  "image": "rootproject/root:6.28.00-ubuntu22.04",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": {
+    "Installing apt packages": "sudo apt-get -yqq update && sudo apt-get install -yqq python3-pip"
+  },
+  "postCreateCommand": {
+    "Installing python packages": "python3 -m pip install -r requirements.txt"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python"
+      ]
+    }
+  }
 }
