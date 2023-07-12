@@ -3,4 +3,5 @@ channels:
 dependencies:
   - root
   - pyspark
-
+  - dask
+  - distributed
