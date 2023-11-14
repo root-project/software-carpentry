@@ -1,6 +1,6 @@
 # Software Carpentry Workshop: ROOT session
 
-This repository contains the material used for the ROOT training session at the Software Carpentry Workshop 2021.
+This repository contains the material used for the ROOT training session at the Software Carpentry Workshop November 2023.
 
 Most of the material is in the form of Jupyter notebooks that can be opened and executed using the links below for [SWAN](https://swan.cern.ch) and [Binder](https://mybinder.org), respectively:
 
