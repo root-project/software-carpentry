@@ -1,4 +1,4 @@
-FROM rootproject/root:6.28.00-ubuntu22.04
+FROM rootproject/root:latest
 
 RUN apt-get update && apt-get install -y git python3 python3-venv
 
