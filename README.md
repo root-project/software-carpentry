@@ -1,3 +1,7 @@
+## WARNING: THIS IS AN ARCHIVED PROJECT
+
+For the latest version of the ROOT introductory course for students, see https://github.com/root-project/student-course
+
 # Software Carpentry Workshop: ROOT session
 
 This repository contains the material used for the ROOT training session at the Software Carpentry Workshop November 2023.
